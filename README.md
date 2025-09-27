@@ -144,7 +144,7 @@ exit
 # End of good_mux.v workflow
 # --------------------------------------------
 
-🌟 # Summary and Achievements:
+🌟 **Summary and Achievements:**
 
    - By the end of Week 1, I successfully:
    
