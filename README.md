@@ -46,27 +46,21 @@ gtkwave filename.vcd
 
 3️⃣Yosys – Logic Synthesis
 
-    Purpose of Yosys
+ Purpose of Yosys
     
-    1.RTL to Gate-Level Synthesis
+ 1.RTL to Gate-Level Synthesis
+            Converts your Verilog RTL code into a gate-level netlist.
+            Helps you see how your design is mapped to actual logic gates.
     
-        Converts your Verilog RTL code into a gate-level netlist.
-        
-        Helps you see how your design is mapped to actual logic gates.
+2. Design Verification & Analysis
+            Generates synthesis reports showing the number of gates, flip-flops, and combinational logic.
+            Useful to check design complexity and identify optimization opportunities.
     
-    2. Design Verification & Analysis
+3. Integration with Open-Source EDA Flow
+            Works with tools like GTKWave, Icarus Verilog, and OpenLane for a complete digital design workflow.
     
-        Generates synthesis reports showing the number of gates, flip-flops, and combinational logic.
-        
-        Useful to check design complexity and identify optimization opportunities.
-    
-    3. Integration with Open-Source EDA Flow
-    
-        Works with tools like GTKWave, Icarus Verilog, and OpenLane for a complete digital design workflow.
-    
-    4. Graphical Visualization
-    
-        Can generate diagrams of the design using the show command for better understanding of module interconnections.
+4. Graphical Visualization
+            Can generate diagrams of the design using the show command for better understanding of module interconnections.
 
 
 
