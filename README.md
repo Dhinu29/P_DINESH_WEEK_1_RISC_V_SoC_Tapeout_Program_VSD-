@@ -99,3 +99,45 @@ abc -liberty $SKY130_LIB
 
 # 7️⃣ Exit Yosys
 exit
+
+# --------------------------------------------
+# Project: good_mux.v – 2-to-1 Multiplexer
+# Demonstrates RTL design, simulation, waveform viewing, and synthesis
+# --------------------------------------------
+
+# 1️⃣ Compile Verilog design and testbench using Icarus Verilog
+iverilog -o good_mux_sim.vvp good_mux.v good_mux_tb.v
+
+# 2️⃣ Run the simulation
+vvp good_mux_sim.vvp
+
+# 3️⃣ View waveform in GTKWave
+gtkwave good_mux.vcd
+
+# 4️⃣ Set environment variable for SkyWater 130nm PDK library
+export SKY130_LIB=/path/to/skywater-pdk/libs/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+# 5️⃣ Run Yosys for logic synthesis
+yosys << EOF
+# Read the Verilog design
+read_verilog good_mux.v
+
+# Load the standard cell library
+read_liberty -lib \$SKY130_LIB
+
+# Synthesize the top module
+synth -top good_mux
+
+# Write synthesized gate-level netlist
+write_verilog good_mux_synth.v
+
+# Optimize logic using ABC
+abc -liberty \$SKY130_LIB
+
+# Exit Yosys
+exit
+EOF
+
+# --------------------------------------------
+# End of good_mux.v workflow
+# --------------------------------------------
