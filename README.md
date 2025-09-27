@@ -156,42 +156,42 @@ exit
    
    - Generated a synthesized gate-level netlist using Yosys, ready for further verification.
 
-## Lab: good_mux.v
+## LAB: good_mux.v
 <img width="1902" height="936" alt="YOSYS" src="https://github.com/user-attachments/assets/d6f1da52-7f1b-4cc3-a61d-1b46ef58ced1" />
 
-## Lab: MULTIPLE_MODULES
+## LAB: MULTIPLE_MODULES
 <img width="1860" height="943" alt="MULTIPLE_MODULES" src="https://github.com/user-attachments/assets/86ada8dc-66d6-4bf4-a9d3-29fbd157339f" />
 
-## Lab: INCOMP_IF
+## LAB: INCOMP_IF
 <img width="1918" height="957" alt="INCOMP_IF" src="https://github.com/user-attachments/assets/803cb894-3c95-45d3-ae73-0d7da89a4c2a" />
 
-## Lab: INCOMP_IF2
+## LAB: INCOMP_IF2
 <img width="1918" height="952" alt="INCOMP_IF2" src="https://github.com/user-attachments/assets/2a9cd29a-6586-4a95-8ae4-89118e960cfe" />
 
-## Lab: OPT_CHECK2
+## LAB: OPT_CHECK2
 <img width="1901" height="962" alt="OPT_CHECK2" src="https://github.com/user-attachments/assets/54b3064e-6538-4f70-93af-0c58752a1a6a" />
 
-## Lab: MULTIPLE_MODULES
+## LAB: MULTIPLE_MODULES
 <img width="1860" height="943" alt="MULTIPLE_MODULES" src="https://github.com/user-attachments/assets/cad416d5-1423-4f67-8316-e270bf2439f2" />
 
-## Lab: PARTIAL_CASE_ASSIGN
+## LAB: PARTIAL_CASE_ASSIGN
 <img width="1920" height="950" alt="PARTIAL_CASE_ASSIGN" src="https://github.com/user-attachments/assets/5180033f-0047-4a35-89e8-b02117dc1908" />
 
 
-## Lab: TERNARY_OPERATOR_MUX
+## LAB: TERNARY_OPERATOR_MUX
 <img width="1898" height="937" alt="TERNARY_OPERATOR_MUX" src="https://github.com/user-attachments/assets/f4de4b4e-5b1a-4b75-94df-909a7ed8e848" />
 
-## Lab: DFF_SYNCRES
+## LAB: DFF_SYNCRES
 <img width="1902" height="966" alt="DFF_SYNCRES" src="https://github.com/user-attachments/assets/c9590b66-865a-49c3-a9e2-17bc359cefab" />
 
-## Lab: DFF_CONST1
+## LAB: DFF_CONST1
 <img width="1900" height="965" alt="DFF_CONST1" src="https://github.com/user-attachments/assets/ebf3c7aa-a0d2-4110-b8e4-0ea7b22cb4d8" />
 
-## Lab: DFF_CONST3
+## LAB: DFF_CONST3
 <img width="1902" height="957" alt="DFF_CONST3" src="https://github.com/user-attachments/assets/1a9975f0-5f13-4585-9c22-5b345404e60f" />
 
-## Lab: DFF_ASYNCRES
+## LAB: DFF_ASYNCRES
 <img width="1902" height="945" alt="DFF_ASYNCRES" src="https://github.com/user-attachments/assets/f2c9ceef-ed6e-463b-a8be-4d61afa63d5f" />
 
-## Lab: BAD_MUX
+## LAB: BAD_MUX
 <img width="1898" height="937" alt="BAD_MUX" src="https://github.com/user-attachments/assets/47764ada-d636-4e0c-a6c5-9074e4799ffd" />
