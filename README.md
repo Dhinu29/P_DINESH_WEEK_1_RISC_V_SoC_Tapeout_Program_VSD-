@@ -89,3 +89,35 @@ abc -liberty $SKY130_LIB
 
 # 7️⃣ Exit Yosys
 exit
+
+
+
+
+
+
+
+
+This is a great, detailed progress report. I've corrected and revised the text for clarity, professionalism, and improved formatting, making it more impactful for a GitHub README. I also ensured the command sections are precise and follow standard conventions.
+
+The revised file is below:
+
+P_DINESH_WEEK_1_RISC_V_SoC_Tapeout_Program_VSD
+Week 1 Progress: Digital Design Flow Setup and Synthesis
+This repository documents my Week 1 progress in the RISC-V SoC Tapeout Program organized by VLSI System Design (VSD). The primary focus of this week was to establish a complete digital design flow using open-source tools and gain practical experience in RTL design, simulation, verification, and synthesis.
+
+Key Achievements
+The week began with Verilog RTL design, where I implemented basic digital modules to solidify my understanding of hardware description at the register-transfer level. Crucially, I developed corresponding testbenches for functional verification, applying input vectors and monitoring outputs. This hands-on practice was essential for learning structured verification methodologies, ensuring the design behaves precisely as expected.
+
+I successfully carried out the entire foundational flow:
+
+RTL Coding→Testbench Development→Simulation (Icarus Verilog)→Waveform Analysis (GTKWave)→Logic Synthesis (Yosys)
+Simulation and Verification
+For simulation, I utilized Icarus Verilog (iverilog), an efficient open-source compiler and simulator. I used it to compile both the design and its testbench, producing simulation executables to validate correctness.
+
+To analyze the results, I used GTKWave, a powerful open-source waveform viewer. This tool enabled the visualization of signal transitions, timing diagrams, and logic behavior, providing crucial insight into the design’s response under different test conditions.
+
+Logic Synthesis
+The highlight of this week was logic synthesis using Yosys. As a widely used open-source synthesis tool, Yosys transforms the high-level Verilog RTL code into a gate-level netlist mapped to a target technology library. Running synthesis offered exposure to how hardware descriptions are broken down into fundamental logic gates and how to interpret synthesis reports for design quality, optimization, and correctness.
+
+This week's work successfully laid a strong technical foundation for the subsequent, more complex challenges in the RISC-V SoC Tapeout journey, providing valuable hands-on practice with industry-relevant open-source EDA tools.
+
