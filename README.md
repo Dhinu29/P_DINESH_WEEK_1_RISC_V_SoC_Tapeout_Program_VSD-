@@ -106,18 +106,19 @@ exit
 # --------------------------------------------
 
 # 1️⃣ Compile Verilog design and testbench using Icarus Verilog
-iverilog -o good_mux_sim.vvp good_mux.v good_mux_tb.v
+```bash
+iverilog  good_mux.v tb_good_mux.v
+```
+<img width="1811" height="110" alt="IVERILOG" src="https://github.com/user-attachments/assets/e1897852-3847-4df5-ba5f-ec04d31695eb" />
 
-# 2️⃣ Run the simulation
-vvp good_mux_sim.vvp
-
-# 3️⃣ View waveform in GTKWave
+# 2️⃣ View waveform in GTKWave
+```bash
 gtkwave good_mux.vcd
+```
+<img width="1883" height="932" alt="IVERILOG_GTKWAVE" src="https://github.com/user-attachments/assets/b305c92b-6b4c-40fa-baee-1f759b4cd88f" />
 
-# 4️⃣ Set environment variable for SkyWater 130nm PDK library
-export SKY130_LIB=/path/to/skywater-pdk/libs/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-
-# 5️⃣ Run Yosys for logic synthesis
+# 3️⃣ Run Yosys for logic synthesis
+```bash
 yosys << EOF
 # Read the Verilog design
 read_verilog good_mux.v
@@ -136,7 +137,8 @@ abc -liberty \$SKY130_LIB
 
 # Exit Yosys
 exit
-EOF
+```
+<img width="1902" height="936" alt="YOSYS" src="https://github.com/user-attachments/assets/a4bbe7e9-68a0-43bc-b74e-d36dc158126c" />
 
 # --------------------------------------------
 # End of good_mux.v workflow
