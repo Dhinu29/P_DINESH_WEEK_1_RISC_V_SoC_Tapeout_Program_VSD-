@@ -1,3 +1,27 @@
+🚀 P_DINESH_WEEK_1_RISC_V_SoC_Tapeout_Program_VSD
+
+This repository documents my Week 1 progress in the RISC-V SoC Tapeout Program organized by VLSI System Design (VSD).
+The main goal of this week was to set up a complete digital design flow using open-source tools and gain hands-on experience in RTL design, simulation, verification, and synthesis.
+
+🌟 Week 1 Highlights
+
+✅ 1. **RTL Design**  
+   - Implemented basic digital modules to understand hardware description at the **register-transfer level (RTL)**.  
+   - Created **testbenches** to verify functionality by applying input vectors and monitoring outputs.
+
+✅ 2. **Simulation with Icarus Verilog**  
+   - Compiled Verilog design and testbench into a **simulation executable**.  
+   - Verified design behavior under different test conditions.
+✅3.  **Waveform Analysis with GTKWave**  
+   - Visualized **signal transitions, timing diagrams, and logic behavior**.  
+   - Debugged and confirmed correctness of the designorrectness.
+✅4. **Logic Synthesis with Yosys**  
+   - Transformed **Verilog RTL** into a **gate-level netlist** mapped to a standard cell library.  
+   - Optimized design using `synth` and `abc` commands.  
+   - Prepared synthesized netlist for further verification or tapeout.
+
+
+
 P_DINESH_WEEK_1_RISC_V_SoC_Tapeout_Program_VSD
 
 This repository documents my Week 1 progress in the RISC-V SoC Tapeout Program organized by VLSI System Design (VSD). The primary focus of this week is to set up a complete digital design flow using open-source tools and gain hands-on experience in RTL design, simulation, verification, and synthesis.
@@ -105,24 +129,17 @@ The main goal of this week was to set up a complete digital design flow using op
 
 🌟 Week 1 Highlights
 
-✅ RTL Design (Verilog)
+✅ 1. **RTL Design**  
+   - Implemented basic digital modules to understand hardware description at the **register-transfer level (RTL)**.  
+   - Created **testbenches** to verify functionality by applying input vectors and monitoring outputs.
 
-Implemented basic digital modules to understand hardware description at the register-transfer level (RTL).
-
-Developed testbenches to verify functionality by applying input vectors and monitoring outputs.
-
-Learned structured verification methods to ensure designs behave correctly.
-
-✅ Simulation
-
-Used Icarus Verilog (iverilog) to compile designs and testbenches into simulation executables.
-
-Visualized results with GTKWave, observing signal transitions, timing diagrams, and logic behavior.
-
-Gained insight into design responses under different test conditions.
-
-✅ Logic Synthesis
-
-Utilized Yosys, an open-source synthesis tool, to generate gate-level netlists mapped to a target technology library.
-
-Interpreted synthesis reports to evaluate design quality, optimization, and correctness.
+✅ 2. **Simulation with Icarus Verilog**  
+   - Compiled Verilog design and testbench into a **simulation executable**.  
+   - Verified design behavior under different test conditions.
+✅3.  **Waveform Analysis with GTKWave**  
+   - Visualized **signal transitions, timing diagrams, and logic behavior**.  
+   - Debugged and confirmed correctness of the designorrectness.
+✅4. **Logic Synthesis with Yosys**  
+   - Transformed **Verilog RTL** into a **gate-level netlist** mapped to a standard cell library.  
+   - Optimized design using `synth` and `abc` commands.  
+   - Prepared synthesized netlist for further verification or tapeout.
