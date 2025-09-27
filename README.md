@@ -146,9 +146,9 @@ exit
 
 🌟 Summary and Achievements:
 
-   #By the end of Week 1, I successfully:
+   - By the end of Week 1, I successfully:
    
-   #Set up a complete digital design flow using open-source tools.
+   # Set up a complete digital design flow using open-source tools.
    
    Developed, simulated, and verified RTL modules.
    
