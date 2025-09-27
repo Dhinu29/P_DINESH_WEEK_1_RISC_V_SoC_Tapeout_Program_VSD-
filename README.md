@@ -144,7 +144,19 @@ exit
 # End of good_mux.v workflow
 # --------------------------------------------
 
+🌟 Summary and Achievements:
 
+By the end of Week 1, I successfully:
+
+Set up a complete digital design flow using open-source tools.
+
+Developed, simulated, and verified RTL modules.
+
+Visualized signal behavior using GTKWave and debugged designs efficiently.
+
+Generated a synthesized gate-level netlist using Yosys, ready for further verification or tapeout.
+
+Gained foundational skills essential for SoC design, verification, and tapeout preparation.
 
 ## Lab: good_mux.v
 <img width="1902" height="936" alt="YOSYS" src="https://github.com/user-attachments/assets/d6f1da52-7f1b-4cc3-a61d-1b46ef58ced1" />
