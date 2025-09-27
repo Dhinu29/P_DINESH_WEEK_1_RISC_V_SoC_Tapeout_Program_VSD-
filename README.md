@@ -14,7 +14,7 @@ RTL Coding → Testbench Development → Simulation with Icarus Verilog → Wave
 This week’s work laid the foundation for upcoming challenges in the RISC-V SoC Tapeout journey. It provided valuable hands-on practice with industry-relevant open-source EDA tools and gave me a strong understanding of the essential digital design cycle. The experience gained here will be critical in the following weeks, as the complexity of tasks increases toward the final tapeout.
 
 
-1️⃣ Icarus Verilog (iverilog) – Compile & Simulate Verilog
+1️⃣ Icarus Verilog (iverilog) – Compile  Simulate Verilog
 
 Purpose: Compile Verilog code and testbenches to produce a simulation executable.
 
@@ -22,7 +22,6 @@ Steps:
 
 Open a terminal in the folder containing your Verilog files.
 
-Compile the design with the testbench:
 ```
 bash
 
@@ -31,3 +30,17 @@ iverilog  FILE_NAME.v FILE_NAME_TB.v
 ./a.out
 
 ```
+
+2️⃣ GTKWAVE - Simulate Verilog
+Purpose of GTKWave :Waveform Visualization
+
+Steps:
+
+Compile the design with the testbench:
+```
+bash
+
+gtkwave filename.vcd
+
+```
+
