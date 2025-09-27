@@ -99,7 +99,7 @@ abc -liberty $SKY130_LIB
 
 # 7️⃣ Exit Yosys
 exit
-
+```
 # --------------------------------------------
 # Project: good_mux.v – 2-to-1 Multiplexer
 # Demonstrates RTL design, simulation, waveform viewing, and synthesis
