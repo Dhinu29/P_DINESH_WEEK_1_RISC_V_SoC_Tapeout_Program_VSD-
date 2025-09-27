@@ -1,4 +1,4 @@
-🚀 # P_DINESH_WEEK_1_RISC_V_SoC_Tapeout_Program_VSD
+ # 🚀 P_DINESH_WEEK_1_RISC_V_SoC_Tapeout_Program_VSD
 
 This repository documents my Week 1 progress in the RISC-V SoC Tapeout Program organized by VLSI System Design (VSD).
 The main goal of this week was to set up a complete digital design flow using open-source tools and gain hands-on experience in RTL design, simulation, verification, and synthesis.
