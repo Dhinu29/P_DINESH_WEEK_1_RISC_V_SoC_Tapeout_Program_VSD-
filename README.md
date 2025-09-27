@@ -46,80 +46,46 @@ gtkwave filename.vcd
 
 3️⃣Yosys – Logic Synthesis
 
-## Yosys – Logic Synthesis
-
 ### Purpose of Yosys
 
 1. **RTL to Gate-Level Synthesis**  
    - Converts your **Verilog RTL code** into a **gate-level netlist**.  
-   - Helps you see how your design is mapped to actual logic gates.
+   - Maps the design to standard cells from a library like SkyWater 130nm.
 
-2. **Design Verification & Analysis**  
-   - Generates **synthesis reports** showing the number of gates, flip-flops, and combinational logic.  
-   - Useful to check design complexity and identify optimization opportunities.
+2. **Design Optimization and Verification**  
+   - Uses commands like `synth` and `abc` to optimize logic.  
+   - Produces synthesized Verilog and netlists for further flow steps.
 
 3. **Integration with Open-Source EDA Flow**  
-   - Works with tools like **GTKWave, Icarus Verilog, and OpenLane** for a complete digital design workflow.
+   - Works with **Icarus Verilog**, **GTKWave**, and other open-source tools.  
+   - Essential for preparing designs for tapeout or FPGA implementation.
 
-4. **Graphical Visualization**  
-   - Can generate diagrams of the design using the `show` command for better understanding of module interconnections.
+---
 
-### Step-by-Step Yosys Commands
+### Step-by-Step Commands
+
+**Set Environment Variable for PDK Library**
 
 ```bash
-# 1️⃣ Open Yosys
+# Set the path to your standard cell library
+export SKY130_LIB=/path/to/skywater-pdk/libs/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+# 1️⃣ Open Yosys shell
 yosys
 
-# 2️⃣ Read Verilog design
+# 2️⃣ Read your Verilog design
 read_verilog FILE_NAME.v
 
-# 3️⃣ Synthesize top module
+# 3️⃣ Read standard cell library using environment variable
+read_liberty -lib $SKY130_LIB
+
+# 4️⃣ Synthesize top module
 synth -top FILE_NAME
 
-# 4️⃣ Write synthesized Verilog
+# 5️⃣ Write synthesized Verilog netlist
 write_verilog synthesized.v
 
-# 5️⃣ Optional: write JSON netlist
-write_json synthesized.json
-
-# 6️⃣ Optional: generate diagram
-show -format png -prefix design_netlist
+# 6️⃣ Optimize logic using ABC with the same library
+abc -liberty $SKY130_LIB
 
 # 7️⃣ Exit Yosys
 exit
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
