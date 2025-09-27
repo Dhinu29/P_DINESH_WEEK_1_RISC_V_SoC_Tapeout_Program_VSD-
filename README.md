@@ -43,7 +43,7 @@ iverilog  FILE_NAME.v FILE_NAME_TB.v
 
 ```
 
-2️⃣ GTKWAVE - Simulate Verilog
+2️⃣ **GTKWAVE - Simulate Verilog**
 Purpose of GTKWave :Waveform Visualization
 
 Steps:
@@ -56,7 +56,7 @@ gtkwave filename.vcd
 
 ```
 
-3️⃣Yosys – Logic Synthesis
+3️⃣ **Yosys – Logic Synthesis**
 
 ### Purpose of Yosys
 
