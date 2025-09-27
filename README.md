@@ -8,12 +8,18 @@ The main goal of this week was to set up a complete digital design flow using op
 ✅ 1. **RTL Design**  
    - Implemented basic digital modules to understand hardware description at the **register-transfer level (RTL)**.  
    - Created **testbenches** to verify functionality by applying input vectors and monitoring outputs.
+
+
 ✅ 2. **Simulation with Icarus Verilog**  
    - Compiled Verilog design and testbench into a **simulation executable**.  
    - Verified design behavior under different test conditions.
+
+
 ✅ 3.  **Waveform Analysis with GTKWave**  
    - Visualized **signal transitions, timing diagrams, and logic behavior**.  
    - Debugged and confirmed correctness of the designorrectness.
+
+     
 ✅ 4. **Logic Synthesis with Yosys**  
    - Transformed **Verilog RTL** into a **gate-level netlist** mapped to a standard cell library.  
    - Optimized design using `synth` and `abc` commands.  
