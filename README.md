@@ -79,8 +79,6 @@ gtkwave filename.vcd
 **Set Environment Variable for PDK Library**
 
 ```bash
-# Set the path to your standard cell library
-export SKY130_LIB=/path/to/skywater-pdk/libs/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 # 1️⃣ Open Yosys shell
 yosys
 
