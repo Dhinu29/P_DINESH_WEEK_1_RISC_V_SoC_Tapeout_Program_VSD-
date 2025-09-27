@@ -46,21 +46,48 @@ gtkwave filename.vcd
 
 3️⃣Yosys – Logic Synthesis
 
- Purpose of Yosys
-    
- 1.RTL to Gate-Level Synthesis
-            Converts your Verilog RTL code into a gate-level netlist.
-            Helps you see how your design is mapped to actual logic gates.
-    
-2. Design Verification & Analysis
-            Generates synthesis reports showing the number of gates, flip-flops, and combinational logic.
-            Useful to check design complexity and identify optimization opportunities.
-    
-3. Integration with Open-Source EDA Flow
-            Works with tools like GTKWave, Icarus Verilog, and OpenLane for a complete digital design workflow.
-    
-4. Graphical Visualization
-            Can generate diagrams of the design using the show command for better understanding of module interconnections.
+## Yosys – Logic Synthesis
+
+### Purpose of Yosys
+
+1. **RTL to Gate-Level Synthesis**  
+   - Converts your **Verilog RTL code** into a **gate-level netlist**.  
+   - Helps you see how your design is mapped to actual logic gates.
+
+2. **Design Verification & Analysis**  
+   - Generates **synthesis reports** showing the number of gates, flip-flops, and combinational logic.  
+   - Useful to check design complexity and identify optimization opportunities.
+
+3. **Integration with Open-Source EDA Flow**  
+   - Works with tools like **GTKWave, Icarus Verilog, and OpenLane** for a complete digital design workflow.
+
+4. **Graphical Visualization**  
+   - Can generate diagrams of the design using the `show` command for better understanding of module interconnections.
+
+### Step-by-Step Yosys Commands
+
+```bash
+# 1️⃣ Open Yosys
+yosys
+
+# 2️⃣ Read Verilog design
+read_verilog FILE_NAME.v
+
+# 3️⃣ Synthesize top module
+synth -top FILE_NAME
+
+# 4️⃣ Write synthesized Verilog
+write_verilog synthesized.v
+
+# 5️⃣ Optional: write JSON netlist
+write_json synthesized.json
+
+# 6️⃣ Optional: generate diagram
+show -format png -prefix design_netlist
+
+# 7️⃣ Exit Yosys
+exit
+
 
 
 
