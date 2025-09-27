@@ -3,7 +3,7 @@
 This repository documents my Week 1 progress in the RISC-V SoC Tapeout Program organized by VLSI System Design (VSD).
 The main goal of this week was to set up a complete digital design flow using open-source tools and gain hands-on experience in RTL design, simulation, verification, and synthesis.
 
-🌟 Week 1 Highlights
+🌟 **Week 1 Highlights**
 
 ✅ 1. **RTL Design**  
    - Implemented basic digital modules to understand hardware description at the **register-transfer level (RTL)**.  
@@ -26,7 +26,7 @@ The main goal of this week was to set up a complete digital design flow using op
    - Prepared synthesized netlist for further verification or tapeout.
 
 
-1️⃣ Icarus Verilog (iverilog) – Compile  Simulate Verilog
+1️⃣ **Icarus Verilog (iverilog) – Compile  Simulate Verilog**
 
 Purpose: Compile Verilog code and testbenches to produce a simulation executable.
 
