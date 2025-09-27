@@ -8,7 +8,6 @@ The main goal of this week was to set up a complete digital design flow using op
 ✅ 1. **RTL Design**  
    - Implemented basic digital modules to understand hardware description at the **register-transfer level (RTL)**.  
    - Created **testbenches** to verify functionality by applying input vectors and monitoring outputs.
-
 ✅ 2. **Simulation with Icarus Verilog**  
    - Compiled Verilog design and testbench into a **simulation executable**.  
    - Verified design behavior under different test conditions.
