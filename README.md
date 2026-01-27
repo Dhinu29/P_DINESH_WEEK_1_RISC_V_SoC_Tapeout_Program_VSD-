@@ -41,6 +41,8 @@ iverilog  FILE_NAME.v FILE_NAME_TB.v
 
 ./a.out
 
+vvp a.out
+
 ```
 
 2️⃣ **GTKWAVE - Simulate Verilog**
